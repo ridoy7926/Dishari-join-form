@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dishari join form</title>
+    <link rel="icon" href="https://ibb.co.com/TqtPW81" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Join DISHARI</h2>
+        <form action="https://formspree.io/f/mkgnnyvl" method="POST">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="area">Village</label>
+            <select id="area" name="area" required>
+                <option value="Mirzapur">Mirzapur</option>
+                <option value="Bittipara">Bittipara</option>
+                <option value="rajshahi">Dhormopra</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="area-name">Area Name(If Other)</label>
+            <input type="text" id="area-name" name="area-name">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="qualification">Educational Qualification</label>
+            <select id="qualification" name="qualification" required>
+                <option value="">Select Qualification</option>
+                <option value="under-ssc">Under SSC</option>
+                <option value="ssc">SSC</option>
+                <option value="hsc">HSC</option>
+                <option value="Undergraduate">Undergraduate</option>
+                <option value="graduate">Graduate</option>
+                <option value="other">Other</option>
+            </select>
+
+            <label for="blood-group">Blood Group</label>
+            <input type="text" id="blood-group" name="blood-group" required>
+
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
